@@ -6,6 +6,7 @@ public static void main(String[] args) {
 	//Problem statement: Check if the number is positive or negative
 	/*Pseudocode
 	 * : ---------- 
+	 
 	 * 1. Initialize a number, say, int number= 35; 
 	 * 
 	 * 2. If a number is positive, print "The number is positive" 
@@ -16,5 +17,15 @@ public static void main(String[] args) {
 	 * 
 	 * "The number is neither positive nor negative"
 	 */
+	int a = 35;
+	if(a==0)
+		{
+		System.out.println("The number is neither positive nor negative");
+	}else if(a>0){
+		System.out.println("The number is positive");
+	
+	}else{
+		System.out.println("The number is negative";
+	}
 }
 }
