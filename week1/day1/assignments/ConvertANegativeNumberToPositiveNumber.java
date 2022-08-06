@@ -20,5 +20,12 @@ public static void main(String[] args) {
 	 * 
 	 * 4. Print the converted positive number
 	 */
+int a = -40;
+	System.out.println(a<0);
+	
+	int b = -a;
+	System.out.println(b);
+
+
 }
 }
